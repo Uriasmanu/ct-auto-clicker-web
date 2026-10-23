@@ -1,0 +1,11 @@
+{
+  "url": "https://exemplo.com/produto",
+  "button": { "by": "text", "value": "Comprar" },
+  "read_selectors": { "status": ".status", "preco": ".price" },
+  "success_check": { "by": "text", "value": "Pedido confirmado" },
+  "interval_seconds": 10,
+  "after_click": "stop",
+  "block_resources": ["image", "font", "media"],
+  "restart_browser_every": 200,
+  "headless": true
+}
